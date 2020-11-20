@@ -1,0 +1,180 @@
+
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+.left img{
+    height: 70px;
+    width: 70px;
+}
+.nav{
+    margin-left:700px;
+    margin-top: 40px;
+    display:inline-block;
+    margin-bottom: 30px;
+    font-size: xx-large;
+}
+.nav li{
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 5px;
+}
+.nav li a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px; 
+    
+}
+
+.nav li a:hover, .nav li a.active{
+    color: gray;
+}
+header{
+    background-color: tomato;
+    width: 100%;
+}
+
+.intro{
+    color: white;
+    text-align: center;
+    position: static;
+    padding-top: 60px;
+    font-size: large;
+    font-style: italic;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    background-color: cadetblue;
+    padding-bottom: 60px;
+}
+.bio{
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+}
+
+.bio p{
+    text-align: center;
+    font-size: 24px;
+    margin: 10px;
+    padding: 10px;
+    width: 40%;
+    border: 1px gray;
+    border-radius: 25px;
+    background-color: cadetblue;
+    color: white;
+    position: static;
+}
+
+.bio p:hover{
+    background-color: gray;
+}
+
+#img1{
+    height: 240px;
+    width: 400px;
+    float: right;
+    padding-right: 60px;
+    padding-top: 150px;
+}
+
+.dis{
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-style: normal;
+}
+
+table,td,th{
+    border: 5px solid black;
+      border-collapse: collapse;
+}
+th,td{
+    background-color: cadetblue;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+tr:hover{
+    background-color: gray;
+}
+.container{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+    border: 3px solid;
+    margin: 40px 350px;
+    padding: 12px;
+    width: 50%;
+    border-radius: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.form input{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    display: block;
+    width: 300px;
+    padding: 1px;
+    border: 2px solid white;
+    margin: 8px auto;
+    font-size: 22px;
+    border-radius: 20px;
+    color: gray;
+}
+.btn{
+    background-color: white;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    display: block;
+    width: 300px;
+    padding: 1px;
+    border: 2px solid white;
+    margin: 8px auto;
+    font-size: 22px;
+    border-radius: 20px;
+    color: gray;
+}
+.btn:hover{
+    background-color: gray;
+    color: white;
+}
+.mail{
+    background-color: white;
+    color: gray;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    display: block;
+    width: 300px;
+    padding: 1px;
+    border: 2px solid white;
+    margin: 8px auto;
+    font-size: 22px;
+    border-radius: 20px;
+}
+
+#contact{
+    background-color: cadetblue;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container:hover{
+    color: black;
+}
+footer{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 24px;
+    text-align: center;
+    background-color:black;
+    color: white;
+  }
