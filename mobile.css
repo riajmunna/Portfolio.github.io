@@ -162,6 +162,21 @@ p{
 .cv-button:hover{
     background-color: tomato;
 }
+
+.cer-button{
+    background-color:#052d2f ;
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 1rem;
+    margin: 8px;
+    cursor: pointer;
+}
+.cer-button:hover{
+    background-color: tomato;
+}
 .about-me::after{
     clear: both;
     content:'';
