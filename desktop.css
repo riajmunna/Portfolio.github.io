@@ -148,6 +148,14 @@
     text-align: justify;
 }
 
+#achievement ol{
+    margin-left: 100px;
+    padding-top: 5px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
 #project ol{
     margin-left: 100px;
     padding-top: 5px;
