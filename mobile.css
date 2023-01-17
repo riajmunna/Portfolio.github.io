@@ -24,13 +24,21 @@ a{
     width: 70px;
     margin:20px auto;
 }
+
+.dotted-hr-black{
+    border: dotted 6px black;
+    border-bottom: none;
+    width: 70px;
+    margin:20px auto;
+}
+
 p{
     font-size: 1.2rem;
     text-align: justify;
 }
 [class*="col-"]{
     float: left;
-    padding: 10px;
+    padding: 4px;
 }
 
 /* for mobile  */
@@ -42,10 +50,19 @@ p{
 /* navbar design starts here  */
 
 .navbar{
-    background-color: #40868b;
-    padding: 1% 7%;
+    background-color: #39a4ac;
+    padding: 0% 4%;
     text-align: center;
+    overflow: hidden;
 }
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
 
 .navbar h1{
     color: white;
@@ -64,10 +81,13 @@ p{
     border-radius: 10px;
     margin: 7px 0px;
     padding: 10px;
+    float: left;
+    display: block;
 }
 
 .navbar-menu a:hover{
-    background-color: gray;
+    background-color: white;
+    color: #0c6168;
 }
 
 
@@ -80,7 +100,10 @@ p{
 
 /* profile design start here */
     .profile{
-        padding: 100px 0px;
+        padding-top: 120px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
         position: relative;
         text-align: center;
     }
@@ -139,8 +162,7 @@ p{
 .about-me img{
     border: 5px solid white;
     border-radius: 50%;
-    height: 220px;
-    width: 200px;
+    height: 360px;
 }
 .about-me p{
     text-align: center;
@@ -160,7 +182,8 @@ p{
     cursor: pointer;
 }
 .cv-button:hover{
-    background-color: tomato;
+    background-color: white;
+    color: #052d2f;
 }
 
 .cer-button{
@@ -175,8 +198,27 @@ p{
     cursor: pointer;
 }
 .cer-button:hover{
-    background-color: tomato;
+    background-color: white;
+    color: #052d2f;
 }
+
+.live-button{
+    background-color:#052d2f ;
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 1rem;
+    margin: 8px;
+    cursor: pointer;
+}
+.live-button:hover{
+    background-color: white;
+    color: #052d2f;
+    border: 1px solid #052d2f ;
+}
+
 .about-me::after{
     clear: both;
     content:'';
@@ -189,18 +231,41 @@ p{
     padding: 1% 0%;
 }
 .professional-experience .card{
-    background-color: #a39e9e;
+    background-color: #39a4ac;
     border-radius: 5px;
+    color: white;
     padding: 10px;
+    width: 100%;
+    font-size: 16px;
     transition: 0.3s;
-    height: 750px;
+    height: 700px;
 
 }
 
-.professional-experience .card:hover{
-    box-shadow: 0px 4px 8px 5px black;
-
+#edu{
+    background-color: #39a4ac;
+    border-radius: 5px;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    font-size: 16px;
+    transition: 0.3s;
 }
+
+#project{
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    padding: 15px;
+    width: 100%;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+/* .professional-experience .card:hover{
+    box-shadow: 0px 4px 8px 5px #052d2f;
+} */
+
 
 .card-icon{
     text-align: center;
@@ -215,8 +280,8 @@ p{
     padding: 15px;
 }
 .card-title h2{
-    background-color: #616161;
-    color: white;
+    background-color: #fff;
+    color:#052d2f;
     padding: 10px;
     text-align: center;
 }
@@ -244,7 +309,7 @@ p{
 .skills-container li::after{
     content: '';
     position: absolute;
-    background-color: rgb(86,86,153,1);
+    background-color:#052d2f;
     width: 0%;
     height: 10px;
     left: 0%;
@@ -294,9 +359,29 @@ p{
 
 @keyframes js{
     to{
-        width: 75%;
+        width: 70%;
     }
 }
+
+.skills-container li.php::after{
+    animation-name: php;
+ }
+ 
+ @keyframes php{
+     to{
+         width: 80%;
+     }
+ }
+
+ .skills-container li.laravel::after{
+    animation-name: laravel;
+ }
+ 
+ @keyframes laravel{
+     to{
+         width: 80%;
+     }
+ }
 
 .skills-container li.java::after{
     animation-name: java;
@@ -304,7 +389,7 @@ p{
  
  @keyframes java{
      to{
-         width: 80%;
+         width: 70%;
      }
  }
 
@@ -425,19 +510,22 @@ p{
 
  /* footer start here */
  .footer{
-    background-color: black;
+    background-color:#052d2f;
     color: white;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
  }
  .footer-menu a{
-     display: block;
-     margin: 15px 0;
-     font-size: 1rem;
+     display: inline;
+     /* margin: 15px 0; */
+     font-size: 1.5rem;
  }
  .footer-menu a:hover{
-     color: gray;
+     color:#052d2f;
+     background-color: white;
+     padding: 5px;
+     border-radius: 10px;
  }
 
  .footer::after{

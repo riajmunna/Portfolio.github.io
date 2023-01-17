@@ -68,6 +68,14 @@
     background-color: transparent;
 }
 
+#navBar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+
 /* navbar end here */
 
 /* profile start here */
@@ -103,8 +111,7 @@
     margin-top: 20px;
 }
 .aboutme-image img{
-    height: 270px;
-    width: 250px;
+    height: 420px;
 }
 .aboutme-desc p{
     text-align: left;
@@ -113,6 +120,10 @@
 
 /* professional experience start here */
 .professional-experience{
+    padding: 1% 5%;
+}
+
+.experience{
     padding: 1% 5%;
 }
 /* professional experience end here */
@@ -129,7 +140,21 @@
     background-color: tomato;
 }
 
+#edu ol{
+    margin-left: 100px;
+    padding-top: 5px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
 
+#project ol{
+    margin-left: 100px;
+    padding-top: 5px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
 
 .contact-link{
     position: relative;

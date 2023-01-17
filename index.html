@@ -4,10 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Riaj Hosen</title>
 
     <!-- for mobile -->
     <link rel="stylesheet" href="mobile.css">
+
+    <link rel="icon" type="image/png" sizes="48x48" href="/images/output-onlinepngtools.png">
 
     <!-- for desktop -->
     <link rel="stylesheet" href="desktop.css" media="screen and (min-width:992px)">
@@ -16,6 +18,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat&family=Satisfy&display=swap"
         rel="stylesheet">
     <!-- font-awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -23,157 +26,193 @@
 
     <!-- 1st nav bar! (logo , heading , menu) -->
 
-    <div class="navbar">
-        <div class="nav-logo col-2">
-            <img src="images/output-onlinepngtools.png" alt="student-logo" style="max-width: 80px;">
-        </div>
-
-        <div class="nav-heading col-3">
+    <div class="navbar" id="navBar">
+        <div class="nav-logo col-3">
             <h1>Riaj Hosen</h1>
         </div>
-
-        <div class="navbar-menu col-7">
+        <div class="navbar-menu col-9">
             <a href="#">Home</a>
             <a href="#about-me-id">About me</a>
+            <a href="#project">Projects</a>
             <a href="#edu">Education</a>
-            <a href="#ski">Skill</a>
-            <a href="#cer">Certification</a>
-            <a href="#conta">Contact me</a>
+            <a href="#exp">Experience</a>
+            <a href="#ski">Skills</a>
+            <a href="#ski">Achievements</a>
+
+            <!-- <a href="#conta">Contact me</a> -->
         </div>
     </div>
     <!-- End of navbar -->
 
     <!-- profile start Here -->
     <div class="profile">
-        <img class="sun" src="images/sun.png" alt="sun-img" style="width: 100px;">
+        <!-- <img class="sun" src="images/sun.png" alt="sun-img" style="width: 100px;"> -->
         <div class="profile-desc">
-            <h1>I am a Computer Engineering Student <br>& <br>Programmer, Developer and Researcher</h1>
-            <p>My name is Riaj Hosen. My passion is problem-solving in online judges,
-                I love to solve algorithms and Data structure-based problems. Love to explore and learn new technology,
-                and programming languages. Now research is my main focus and in doing that, I love to develop projects
-                about the web, mobile apps, UI/UX design, etc. Nowadays i learned about software testing and assurance.
+            <h1>I am a Computer Science and Engineering Graduate <br>& <br>Programmer, Developer and Researcher</h1>
+            <p style="word-spacing: .5vh; line-height: 4vh;">Hello I'm Riaj Hosen. I have completed my Bachelor of
+                Science (B.Sc.) degree in
+                Computer Science and Engineering from Green University
+                of Bangladesh. I love to solve algorithms and Data
+                structure-based problems in online judges and love to explore and learn new technology,
+                and programming languages. I would to like call myself as "a passionate computer science student and i
+                like to work in full-stack web developer development but specially back-end web development (Laravel)"
             </p>
         </div>
-        <img class="moon" src="images/monn2.jpg" alt="moon-img" style="width: 120px;">
+        <!-- <img class="moon" src="images/monn2.jpg" alt="moon-img" style="width: 120px;"> -->
     </div>
     <br><br>
-    <!-- profile end here -->
 
-    <!-- about me starts here -->
     <div class="about-me" id="about-me-id">
         <h2>ABOUT ME</h2>
         <hr class="dotted-hr">
         <div class="aboutme-image col-6">
-            <img src="images/riaj.png" alt="riaj.png">
+            <img src="images/riaj_recent_low.png" alt="riaj.png">
         </div>
         <div class="aboutme-desc col-6">
-            <p>I would to like call myself as "a passionate computer science student and i like to work in front-end
-                development, Android App development, Object oriented programming, Wireless Sensor Network, Unmmaned Aerial Vehicle"</p>
-            <p>I am trying to explore the computer science field and become a good learner. I always look about learning
-                new things in computer science.</p>
             <hr class="aboutme-hr">
             <p>Name: Riaj Hosen</p>
             <hr class="aboutme-hr">
-            <p>Address: Chunkutia Muslim Nagar Road, Keraniganj, Dhaka- 1310, Bangladesh</p>
+            <p>Address: East Chunkutia, Muslim Nagar, Keraniganj, Dhaka-1310, Bangladesh</p>
             <hr class="aboutme-hr">
             <p>phone: <a href="tel:+8801953153985">+8801953-153985</a></p>
             <hr class="aboutme-hr">
             <p>E-mail: <a href="mailto:riaj.183002136.cse.gub@gmail.com">riaj.183002136.cse.gub@gmail.com</a></p>
             <hr class="aboutme-hr">
-            <p>Website: <a href="#" target="_blank">riajmunna-cmd.io</a></p>
+            <p>GitHub: <a href="https://github.com/riajmunna">github.com/riajmunna</a></p>
+            <hr class="aboutme-hr">
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/riajmunna/">www.linkedin.com/in/riajmunna/</a></p>
+            <hr class="aboutme-hr">
+            <p>Website: <a href="https://riajmunna.github.io/Portfolio.github.io/" target="_blank">riajmunna-cmd.io</a>
+            </p>
 
             <p>
-                <a href="https://drive.google.com/file/d/1gfoPi9zbsTnNxKWK7msQ9IiK-5LEzCJ0/view?usp=sharing" target="_blank">
+                <a href="https://drive.google.com/file/d/1gfoPi9zbsTnNxKWK7msQ9IiK-5LEzCJ0/view?usp=sharing"
+                    target="_blank">
                     <button class="cv-button">Download CV</button>
                 </a>
             </p>
 
         </div>
     </div>
-    <!-- About me end here -->
+
+    <div class="project" id="project">
+        <h2>PROJECTS</h2>
+        <hr class="dotted-hr-black">
+        <ol>
+
+            <li>
+                <h3>Customer Relationship Management (CRM)</h3>
+                Customer relationship management is when a business or other organization administers its interactions
+                with customers, typically using data analysis to study large amounts of information. This system was
+                developed for the GOVT organization (SEIP-BACCO). Here super admin, customer, and agent can use this
+                system. Only the super admin can add agents, customers, employees, and users can performupdates and
+                delete them. The agent can do the same things for employees and users and lastly, employees can add
+                update-only users, that's why we use middleware. For super admin here used JStream authentication and
+                others for user-defined authentication. The main feature of this system is how much time and data entry
+                done by employees is recorded here which can see only super admin and agents.
+                <br><br>
+                <a style="color: black;" href="http://www.crmssdi.xyz/login"><button
+                        class="live-button">Live</button></a><br>
+                <span style="font-size: 18px;">Code: </span><a style="color: black;"
+                    href="https://github.com/riajmunna/Ecommerce-Website-eShop.com"><u>https://github.com/riajmunna/Ecommerce-Website-eShop.com</u></a>
+            </li>
+            <br>
+            <hr>
+
+            <li>
+                <h3>E-commerce Website (eShop.com)</h3>
+                This is a e-commerce website where users can perform signIn/ signup,
+                view products, purchase products, add to cart, brugain products,
+                contact with authority and admin can create products and can create
+                user and also delete user profile. <br><br>
+                <span style="font-size: 18px;">Code: </span><a style="color: black;"
+                    href="https://github.com/riajmunna/Ecommerce-Website-eShop.com"><u>https://github.com/riajmunna/Ecommerce-Website-eShop.com</u></a>
+
+            </li>
+            <br>
+            <hr>
+            <li>
+                <h3>Online Shopping Android App “eShop”</h3>
+                This is a e-commerce android mobile app where users can perform
+                signIn/ signup, view products, purchase products, add to cart, brugain
+                products, contact with authority and admin can create products and can
+                create user and also delete user profile.<br><br>
+                <span style="font-size: 18px;">Code: </span><a style="color: black;"
+                    href="https://github.com/riajmunna/Online-Shopping-App-eShop-"><u>https://github.com/riajmunna/Online-Shopping-App-eShop-</u></a>
+
+            </li>
+            <br>
+            <hr>
+            <li>
+                <h3>Hello from The Other Side</h3>
+                This is a chating web application where group of people can chat between
+                them only text messages are supported.<br><br>
+                <span style="font-size: 18px;">Code: </span><a style="color: black;"
+                    href="https://github.com/riajmunna/Messaging-App"><u>https://github.com/riajmunna/Messaging-App
+                    </u></a>
+            </li>
+        </ol>
+
+        <br>
+        <hr>
+        <h2>PUBLICATIONS</h2>
+        <hr class="dotted-hr-black">
+        <ol>
+
+            <li>
+                <h3>Conference Paper (STI-2022)</h3>
+                Md. Daiyan Uddin Mozumder, Riaj Hosen, Md. Mamun Hossain,
+                Md. Ahsan Habib, Palash Roy, Md. Abdur Razzaque, "Multiple
+                Circular Ring-canals on the Starfish Routing Backbone in Wireless
+                Sensor Networks", 2022 4th International Conference on
+                Sustainable Technologies for Industry 4.0 (STI), 17-18 Dec, 2022,
+                Dhaka, Bangladesh. <br><br>
+                <!-- <span style="font-size: 18px;">Code: </span><a style="color: black;"
+                    href="https://github.com/riajmunna/Ecommerce-Website-eShop.com"><u>https://github.com/riajmunna/Ecommerce-Website-eShop.com</u></a> -->
+            </li>
+        </ol>
+
+    </div>
+
+    <div class="education" id="edu">
+        <h2>EDUCATION</h2>
+        <hr class="dotted-hr">
+        <ol>
+            <li>
+                <h3>B.Sc. in Computer science and Engineering (2018-2022)</h3>
+                Green University of Bangladesh <br> <br>
+                220/D, Begum Rokeya Sarani (300 meter North Side of IDB Bhaban), Dhaka -1207, Bangladesh
+                <br><br>
+            </li>
+            <hr>
+            <li>
+                <h3>Higher Secondary School Certificate (2016-2017)</h3>
+                Salimullah College<br><br>
+                Tipu Sultan Road, Wari, Dhaka -1203, Bangladesh<br><br>
+            </li>
+            <hr>
+            <li>
+                <h3>Secondary School Certificate (2014-2015)</h3>
+                Zinzira P.M. Pilot School and College<br><br>
+                Zinzira, Keraniganj, Dhaka -1310, Bangladesh<br>
+            </li>
+        </ol>
+        <br>
+        <hr>
+        <h2 id="exp">WORKING EXPERIENCE</h2>
+        <hr class="dotted-hr">
+        <ol>
+            <li>
+                <h3>Jr. Software Engineer (01 January 2023 - Present)</h3>
+                Smart Coder Lab<br> <br>
+                948 East Shewrapara, Dhaka 1216
+                <br><br>
+            </li>
+        </ol>
+    </div>
 
     <div class="professional-experience">
-
-        <div class="Education col-4" id="edu">
-            <div class="card">
-                <div class="card-icon">
-                    <img class="rounded-img" src="images/book.png" alt="book.png">
-                </div>
-
-                <div class="card-title">
-                    <h2>EDUCATION</h2>
-                </div>
-
-                <div class="card-desc">
-                    <ol>
-                        <li>
-                            <strong>B.Sc. in Computer science and Engineering</strong> <br>
-                            2018-2022 <br>
-                            Green University of Bangladesh <br>
-                            220/D, Begum Rokeya Sarani (300 meter North Side of IDB Bhaban), Dhaka -1207, Bangladesh
-                            <br>
-                            <a href="https://green.edu.bd/" target="blank">https://www.green.edu.bd/</a> <br>
-
-                        </li>
-                        <hr>
-                        <li>
-                            <strong>Higher Secondary School Certificate</strong> <br>
-                            2016-2017</br>
-                            Salimullah College<br>
-                            Tipu Sultan Road, Wari, Dhaka -1203, Bangladesh<br>
-                            <a href="http://www.salimullahcollege.edu.bd/"
-                                target="blank">http://www.salimullahcollege.edu.bd/</a> <br>
-
-                        </li>
-                        <hr>
-                        <li>
-                            <strong>Secondary School Certificate</strong> <br>
-                            2014-2015 <br>
-                            Zinzira P.M. Pilot School and College<br>
-                            Zinzira, Keraniganj, Dhaka -1310, Bangladesh<br>
-                            <a href="#">https://zinzirapmpsc.edu.bd/</a> <br>
-
-                        </li>
-                    </ol>
-                </div>
-            </div>
-
-        </div>
-
-        <!-- skills start here -->
-        <div class="skills col-4" id="ski">
-            <div class="card">
-                <div class="card-icon">
-                    <img class="rounded-img" src="images/skill.png" alt="skill.png">
-                </div>
-
-                <div class="card-title">
-                    <h2>SKILLS</h2>
-                </div>
-
-                <div class="card-desc">
-                    <div class="skills-container">
-                        <ul>
-                            <li class="html">HTML</li>
-                            <li class="css">CSS</li>
-                            <li class="js">JavaScript</li>
-                            <li class="oop">Android App Development</li>
-                            <li class="python">Python</li>
-                            <li class="cpp">UI/UX Design</li>
-                            <li class="oop">Object Oriented Programming</li>
-                            <li class="git">Analytical Problem Solving</li>
-                            <li class="java">Java</li>
-                            <li class="mysql">MySQL</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- skill ends here -->
-
-        <!-- certification start here -->
-
-        <div class="Certification col-4" id="cer">
+        <div class="Certification col-6" id="cer">
             <div class="card">
                 <div class="card-icon">
                     <img class="rounded-img" src="images/certification.png" alt="certification.png">
@@ -188,42 +227,110 @@
                         <hr>
                         <li><strong>Google Cloud Fundamentals for AWS Professionals</strong> <br>
                             <a href="https://www.coursera.org/account/accomplishments/certificate/5ALDRYTHNCPF"
-                                target="_blank"><button class="cer-button">View Certificate</button></a>
+                                target="_blank"><button class="live-button">View Certificate</button></a>
                         </li>
 
                         <hr>
                         <li><strong>Problem Solving Using Computational Thinking</strong> <br>
                             <a href="https://www.coursera.org/account/accomplishments/certificate/99UZT4AHAB5N"
-                                target="_blank"><button class="cer-button">View Certificate</button></a>
+                                target="_blank"><button class="live-button">View Certificate</button></a>
                         </li>
 
+                        <hr>
                         <li><strong>Responsive Web Design</strong> <br>
                             <a href="https://freecodecamp.org/certification/fcc93f05fb0-6a4a-4c41-9c35-4242d0243307/responsive-web-design"
-                               target="_blank"><button class="cer-button">View Certificate</button></a></li>
+                                target="_blank"><button class="live-button">View Certificate</button></a>
+                        </li>
 
                         <hr>
                         <li><strong>Visual Elements of User Interface Design</strong> <br>
                             <a href="https://www.coursera.org/account/accomplishments/certificate/JQDLLVJWRPSL"
-                                target="_blank"><button class="cer-button">View Certificate</button></a>
+                                target="_blank"><button class="live-button">View Certificate</button></a>
                         </li>
 
                         <hr>
                         <li><strong>Setting a Foundation for Successful Test Automation</strong> <br>
                             <a href="https://drive.google.com/file/d/1L6EPIPRvI8TQiVnvKJWrgAnkt4aASmxn/view?usp=sharing"
-                                target="_blank"><button class="cer-button">View Certificate</button></a>
+                                target="_blank"><button class="live-button">View Certificate</button></a>
                         </li>
 
                     </ol>
                 </div>
             </div>
+        </div>
 
+        <div class="skills col-6" id="ski">
+            <div class="card">
+                <div class="card-icon">
+                    <img class="rounded-img" src="images/skill.png" alt="skill.png">
+                </div>
+
+                <div class="card-title">
+                    <h2>SKILLS</h2>
+                </div>
+
+                <div class="card-desc">
+                    <div class="skills-container">
+                        <ul>
+                            <li class="html">HTML</li>
+                            <li class="css">CSS, Bootstrap</li>
+                            <li class="js">JavaScript</li>
+                            <li class="php">PHP</li>
+                            <li class="laravel">Laravel Framework</li>
+                            <li class="mysql">MySQL</li>
+                            <li class="oop">Object Oriented Programming</li>
+                            <li class="python">Python</li>
+                            <li class="java">Java</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <!-- certification end here -->
+
+    <div class="project" id="project">
+        <h2>PROJECTS</h2>
+        <hr class="dotted-hr-black">
+        <ol>
+            <li>
+                <h3>Vice Chancellor Certificate (VC Award)</h3>
+                <p>This certificate is an Academic Excellence Award by the Honorable
+                    Vice-Chancellor of Green University of Bangladesh. This certificate is
+                    provided to the student who scores a GPA of 3.90 to 4.00 in a
+                    semester. I have got the 4 Vice-Chancellor (VC) certificate.
+                </p>
+                <a href="https://drive.google.com/file/d/1hZFE3Q2-0w_xUtvOdYWWVo7oNxDA44lC/view?usp=sharing"
+                    target="_blank"><button class="cer-button">View Certificate</button></a>
+            </li>
+            <hr>
+
+            <li>
+                <h3>Dean Certificate (Dean Award)</h3>
+                <p>This certificate is an Academic Excellence Award by the Honorable
+                    Dean of Faculty of Science and Engineering, Green University of
+                    Bangladesh. This certificate is provided to the student who scores a
+                    GPA of 3.80 to 3.90 in a semester. I have got the 7 Dean certificate.
+                </p>
+                <a href="https://drive.google.com/file/d/1hUD0eyCKFF25ogzZ5J0DgmWe6WkAp51-/view?usp=sharing"
+                    target="_blank"><button class="cer-button">View Certificate</button></a>
+            </li>
+            <hr>
+
+            <li>
+                <h3>Inter Department Programming Contest (IDPC)</h3>
+                <p>Our team BitByte was stood 1<sup>st</sup> runner-up in this programming contest. The contest was
+                    organized by Green University Computer Club (GUCC)
+                    in CSE Carnival 2019.
+                </p>
+                <a href="https://drive.google.com/file/d/1hCFbtQAblYRHMwL5DnRAlinXvfQnobJs/v
+                iew?usp=sharing" target="_blank"><button class="cer-button">View Certificate</button></a>
+            </li>
+        </ol>
+    </div>
 
 
-    <!-- contact me start here -->
-    <div class="achievement-contacts">
+
+    <!-- <div class="achievement-contacts">
         <div class="achievement col-4">
             <h2>ACHIEVEMENT</h2>
             <hr class="dotted-hr">
@@ -267,25 +374,19 @@
                         class="fa fa-github" style="color: #6e5494" aria-hidden="true"></i></button>
             </div>
         </div>
-    </div>
-    <!-- contact me end here -->
+    </div> -->
 
-    <!-- footer starts from here -->
     <div class="footer">
         <div class="footer-menu col-6">
-            <a href="#">Home</a>
-            <a href="#about-me-id">About me</a>
-            <a href="#edu">Education</a>
-            <a href="#ski">Skill</a>
-            <a href="#cer">Certification</a>
-            <a href="#conta">Contact me</a>
+            <a class="btn" href="https://www.instagram.com/riajmunna/"><i class="fa fa-instagram"></i></a>
+            <a class="btn" href="https://www.facebook.com/riajmunna33/"><i class="fa fa-facebook-official"></i></a>
+            <a class="btn" href="https://www.linkedin.com/in/riaj-hosen-302b94176/"><i class="fa-brands fa-linkedin"></i></a>
+            <a class="btn" href="https://github.com/riajmunna"> <i class="fa fa-github" style="color: #6e5494" aria-hidden="true"></i></a>
         </div>
-
         <div class="footer-desc col-6">
-            &copy; Riaj 2022. Devloped with <span>💙</span> by Riaj <span>😎</span>
+            &copy; Riaj Hosen 2023.
         </div>
     </div>
-    <!-- footer end here -->
 
 </body>
 
