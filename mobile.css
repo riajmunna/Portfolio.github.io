@@ -323,43 +323,23 @@ p{
     animation-iteration-count: infinite;
 }
 
-.skills-container li.html::after{
-    animation-name: html;
+.skills-container li.java::after{
+    animation-name: java;
 }
 
-@keyframes html{
+@keyframes java{
     to{
         width: 90%;
     }
 }
 
-.skills-container li.css::after{
-   animation-name: css;
+.skills-container li.springBoot::after{
+   animation-name: springBoot;
 }
 
-@keyframes css{
+@keyframes springBoot{
     to{
-        width: 80%;
-    }
-}
-
-.skills-container li.bootstrap::after{
-    animation-name: bs;
- }
- 
- @keyframes bs{
-     to{
-         width: 85%;
-     }
- }
-
-.skills-container li.js::after{
-   animation-name: js;
-}
-
-@keyframes js{
-    to{
-        width: 70%;
+        width: 90%;
     }
 }
 
@@ -369,49 +349,69 @@ p{
  
  @keyframes php{
      to{
-         width: 80%;
+         width: 90%;
      }
  }
 
- .skills-container li.laravel::after{
-    animation-name: laravel;
- }
- 
- @keyframes laravel{
-     to{
-         width: 80%;
-     }
- }
-
-.skills-container li.java::after{
-    animation-name: java;
- }
- 
- @keyframes java{
-     to{
-         width: 70%;
-     }
- }
-
-
-
-.skills-container li.cpp::after{
-   animation-name: cpp;
+.skills-container li.laravel::after{
+   animation-name: laravel;
 }
 
-@keyframes cpp{
+@keyframes laravel{
     to{
-        width: 85%;
+        width: 90%;
     }
 }
 
-.skills-container li.python::after{
-    animation-name: python;
+.skills-container li.nodeJs::after{
+    animation-name: nodeJs;
  }
  
- @keyframes python{
+ @keyframes nodeJs{
      to{
-         width: 75%;
+         width: 90%;
+     }
+ }
+
+ .skills-container li.expressJs::after{
+    animation-name: expressJs;
+ }
+ 
+ @keyframes expressJs{
+     to{
+         width: 90%;
+     }
+ }
+
+.skills-container li.angular::after{
+    animation-name: angular;
+ }
+ 
+ @keyframes angular{
+     to{
+         width: 80%;
+     }
+ }
+
+
+
+.skills-container li.vueJs::after{
+   animation-name: vueJs;
+}
+
+@keyframes vueJs{
+    to{
+        width: 70%;
+    }
+}
+
+.skills-container li.db::after{
+    animation-name: db;
+ }
+ 
+ @keyframes db{
+     to{
+         width: 90%;
      }
  }
 
